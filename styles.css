@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('fonts/GothamBold.ttf') format('truetype'),
+     url('fonts/GothamBoldItalic.ttf') format('truetype'),
+     url("fonts/GothamBook.ttf") format('truetype'),
+     url("fonts/GothamBookItalic.ttf") format('truetype'),
+     url("fonts/GothamLight.ttf") format('truetype'),
+     url("fonts/GothamLightItalic.ttf") format('truetype'),
+     url("fonts/GothamMedium.ttf") format('truetype'),
+     url("fonts/GothamMedium_1.ttf") format('truetype'),
+     url("fonts/GothamMediumItalic.ttf") format('truetype');
+    
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
