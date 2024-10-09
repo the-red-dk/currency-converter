@@ -79,9 +79,20 @@ select {
     color: white;
     font-weight: 400;
     font-size: 20px;
+    outline:none;
+}
+
+option {
+    color: black;
+    font-weight: 500;
 }
 input::placeholder {
     color: white;
+}
+
+select:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 .result {
