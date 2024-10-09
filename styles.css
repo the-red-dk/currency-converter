@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gotham;
+    font-weight: bold;
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+    min-height: 100vh !important;
+    background: url("images/money.jpg");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.container {
+    background-color: transparent;
+    /* background-color:rgb(243, 226, 206); */
+    border-radius: 15px;
+    padding: 15px 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    backdrop-filter: blur(5px);
+    /* min-width: 500px; */
+    width: 80%;
+    min-height: 200px;
+    /* max-width: 1200px; */
+    margin: auto; /* Center the container */
+    padding-bottom: 30px;
+    border: beige solid 1px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.h1 {
+    font-size: 42px;
+    margin-bottom: 30px;
+    color: white;
+    margin-top: 16px;
+
+}
+
+.input-container {
+    width: 100%;
+    /* display: flex; */
+    /* gap: 10px; */
+    /* flex-wrap: wrap; */
+}
+
+input {
+    padding: 12px;
+    width: fit-content;  
+    outline: none;
+    border: solid 2px;
+    border-color: beige;
+    border-radius: 6px;
+    background: transparent;
+    font-weight: 300;
+    text-indent: 10px;
+    font-size: 20px;
+    width: 80%;
+}
+.down {
+    height: 50px; 
+    margin: 30px;
+}
+select {
+    width: 19%;
+    padding: 12px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: greenyellow solid 2px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+input::placeholder {
+    color: white;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* @media screen and (max-width: 480px) { */
+@media screen and (max-width: 660px) {
+    .container {
+        width: 80%;
+}
+
+.h1 {
+    font-size: 36px;
+}
+
+.down {
+    height: 26px;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+select {
+    width: 80%;
+}
+}
